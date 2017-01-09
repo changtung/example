@@ -1,0 +1,16 @@
+
+<div class="container">
+
+  <form name="deviceform" class="form-device">
+    <h2 class="form-device-heading">Create device</h2>
+    <label for="manufacturer" class="sr-only">Manufacturer</label>
+    <input type="text" id="manufacturer" class="form-control" placeholder="Manufacturer" ng-model="params.manufacturer" required autofocus>
+    <label for="bios" class="sr-only">Bios</label>
+    <input type="text" id="bios" class="form-control" placeholder="Bios" ng-model="params.bios" required>
+    <label for="type" class="sr-only">Type</label>
+    <input type="text" id="type" class="form-control" placeholder="Type" ng-model="params.type" required>
+
+    <button ng-disabled="!deviceform.$valid" class="btn btn-lg btn-primary btn-block" type="submit" ng-click="create(params)">Create</button>
+  </form>
+
+</div> <!-- /container -->

@@ -1,0 +1,19 @@
+
+<div class="container">
+
+  <form name="signupform" class="form-signin">
+    <h2 class="form-signin-heading">Please sign up</h2>
+    <label for="inputEmail" class="sr-only">Username</label>
+    <input type="text" id="inputUsername" class="form-control" placeholder="Username" ng-model="params.username" required autofocus>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password" ng-model="params.password" required>
+    <label for="inputPassword" class="sr-only">Confirm password</label>
+    <input type="password" id="inputPassword2" class="form-control" placeholder="Confirm password" ng-model="params.password2" required>
+
+    <div ng-show="params.password != params.password2" class="alert alert-danger" role="alert">
+        Passwords don't match
+    </div>
+    <button ng-disabled="!signupform.$valid" class="btn btn-lg btn-primary btn-block" type="submit" ng-click="signup(params)">Sign up</button>
+  </form>
+
+</div> <!-- /container -->

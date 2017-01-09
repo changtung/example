@@ -1,0 +1,33 @@
+CallPal Technical Exercise
+
+Please create a simple device manager application based in AngularJS that allows a user to manage additional devices tied to their account. Imagine that the database already exists in MongoDB and just build the front end infrastructure including http requests to the database from AngularJS (no external scripts needed beyond angular, you can use json documents or local storage).
+
+
+
+Please make use of factory in AngularJS to handle the data transactions and utilize a defer/promise structure for data retrieval. Also, please use ui-router for state based navigation.
+
+
+
+Please create a simple user interface that is targeted for a mobile experience with a main view to see all devices along with CRUD functionality for each device. Please use HTML5 and CSS3 on the view templates and set up the application directory in MVC structure.
+
+
+
+You have full discretion in regards to the design.
+
+
+
+Once completed, please compress the application directory and attach it as a reply to this email.
+
+If you have any questions please don’t hesitate to reach out to me.
+
+
+
+Thanks,
+
+Please do this small test ASAP and send it over to ecohen@callpalapp.net let me know when this done
+
+Thanks
+
+
+
+#ECSat Feb 20 08:51:25 CET 2016
